@@ -1,0 +1,15 @@
+0. 처음 깃폴더 생성 후 깃허브와 연결 코드(하나의 폴더에 최초 한번만 한다)
+git init					- 깃허브와 폴더를 처음 연결
+git remote add origin 깃허브주소		- 폴더와 자신의 깃허브 저장소와 연결
+
+1. Pull 코드
+git pull origin master			- pull
+
+2. push 코드
+git status					- 깃폴더 상태 확인
+git add .					- 임시 저장소에 추가
+git commit -m "메시지"			- commit 메시지 추가
+git push origin master			- push
+
+3. 다른 사람 깃허브 저장소에서 자료 가져오는 코드
+git remote add origin 깃허브주소
